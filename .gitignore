@@ -1,0 +1,9 @@
+*.dll
+*.user
+node_modules
+bower_components
+src/client/*.js
+src/client/*.js.map
+bin
+obj
+debug
