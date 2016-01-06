@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" data-framework="typescript">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Policy App</title>
+    <style>
+        [ng-cloak] {
+            display: none;
+        }
+    </style>
+    <!-- inject:css -->
+    <link href="../../bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles/app.css">
+    <!-- endinject -->
+</head>
+    <body ng-app="policyApp" >
+        
+        <div style="width:80%; margin:auto">
+            <h1>Policy App</h1>
+
+            <div ui-view>
+
+            </div>
+
+            <div id="content"></div>            
+        </div>
+
+        <script src="../../bower_components/jquery/dist/jquery.js"></script>
+        <script src="../../bower_components/angular/angular.js"></script>
+        <script src="../../bower_components/angular-route/angular-route.js"></script>
+        <script src="../../bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+
+
+        <script src="models/models.js"></script>
+        <script src="_all.js"></script>
+        <script src="controllers/PetsController.js"></script>
+        <script src="controllers/PoliciesController.js"></script>
+        <script src="controllers/controllers.js"></script>
+        <script src="configs/RouteConfig.js"></script>
+        <script src="app.js"></script>
+</body>
+</html>
