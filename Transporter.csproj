@@ -18,6 +18,7 @@
     <IISExpressUseClassicPipelineMode />
   </PropertyGroup>
   <ItemGroup>
+    <Content Include=".gitignore" />
     <Content Include="index.html" />
     <Content Include="src\client\styles\app.css" />
     <Content Include="src\client\index.html" />
@@ -40,6 +41,7 @@
     <TypeScriptCompile Include="src\client\controllers\PetsController.ts" />
     <TypeScriptCompile Include="src\client\controllers\PoliciesController.ts" />
     <TypeScriptCompile Include="src\client\libs\angularjs\angular-route.d.ts" />
+    <TypeScriptCompile Include="src\client\libs\angularjs\angular-ui-router.d.ts" />
     <TypeScriptCompile Include="src\client\libs\angularjs\angular.d.ts" />
     <TypeScriptCompile Include="src\client\libs\jquery\jquery.d.ts" />
     <TypeScriptCompile Include="src\client\models\models.ts" />
